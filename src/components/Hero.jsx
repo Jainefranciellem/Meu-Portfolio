@@ -24,19 +24,10 @@ const Hero = () => {
        <div className="md:text-left text-center">
         <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-gray-900 font-bold">
             <span className="text-purple-400 md:text-6xl text-5xl">
-            {/* <Typical
-            loop={Infinity}
-            steps={[
-              `Ola, eu sou`,
-              1000,
-              "Hello, I am",
-              1000,
-              "Hola yo soy",
-              1000,
-            ]}
-          /> */}
+           Olá!
+           <br />
           </span>
-            Jaine Franciellem
+            Meu nome é Jaine Franciellem
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal  leading-5mt-4 font-bold text-gray-900">Desenvolvedora Web Front end</h4>
           <a href="#contact"><button className="btn-primary hover:scale-105 mt-8">Entre em contato</button></a>
