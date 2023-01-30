@@ -34,7 +34,7 @@ const Hero = () => {
         <div className="mt-8 text-5xl md:justify-start justify-center flex items-center gap-8">
             {
               social_media.map(icon =>(
-                <div key={icon} className="text-gray-900 hover:scale-105 cursor-pointer">
+                <div key={`${icon.name} ${Date.now()}`} className="text-gray-900 hover:scale-105 cursor-pointer">
                     <a href={icon.link} className="" target="_blank"><ion-icon name={icon.name}></ion-icon></a>
                 </div>
               ))

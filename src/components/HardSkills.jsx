@@ -43,7 +43,7 @@ const Skills = () => {
         <div className="flex items-center justify-center mt-10 gap-8 flex-wrap">
           {skills.map((skill, i) => (
             <div
-              key={i}
+              key={`${skill.name} ${Date.now()}`}
               className="border-2 group border-purple-400 relative min-w-[10rem] max-w-[14rem] max-h-[17rem] p-10 rounded-xl"
             >
               <div

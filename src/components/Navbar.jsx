@@ -32,7 +32,7 @@ const Navbar = () => {
             <ul className="flex items-center text-black gap-1 py-2 text-lg">
               {
                 menuLinks.map((menu, i) => (
-                <li key={i} className="px-7 font-bold text-base hover:text-purple-400" >
+                <li key={`${menu.name} ${Date.now()}`} className="px-7 font-bold text-base hover:text-purple-400" >
                   <a href={menu.link}>{menu.name}</a>
                 </li>
                 ))

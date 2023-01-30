@@ -37,7 +37,7 @@ const Skills = () => {
         <div className="flex items-center justify-center mt-10 gap-8 flex-wrap">
           {skills.map((skill, i) => (
             <div
-              key={i}
+              key={`${skill.name} ${Date.now()}`}
               className="border-2 group border-purple-400 relative min-w-[10rem] max-w-[14rem] max-h-[17rem] p-10 rounded-xl"
             >
                 <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-purple-400 m-6">
