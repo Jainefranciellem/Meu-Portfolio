@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import myself from '../img/eu.png'
-import Typical from "react-typical";
+// import Typical from "react-typical";
 
 
 const Hero = () => {
@@ -24,7 +24,7 @@ const Hero = () => {
        <div className="md:text-left text-center">
         <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-gray-900 font-bold">
             <span className="text-purple-400 md:text-6xl text-5xl">
-            <Typical
+            {/* <Typical
             loop={Infinity}
             steps={[
               `Ola, eu sou`,
@@ -34,7 +34,7 @@ const Hero = () => {
               "Hola yo soy",
               1000,
             ]}
-          />
+          /> */}
           </span>
             Jaine Franciellem
           </h1>
