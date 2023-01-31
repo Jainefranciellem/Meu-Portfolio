@@ -1,23 +1,27 @@
 import React from "react";
+import SiteResponsivo from '../img/SiteResponsivo.png';
+import Pokedex from '../img/Pokedex.png'
+import PixelArt from '../img/pixelArt.png'
+// import ShoppingCart from '../img/ShoppingCart.png'
 
 const Project = () => {
   const project = [
     {
       id: 1,
       title: "Site Responsivo",
-      imageSrc: "src/img/SiteResponsivo.png",
+      imageSrc: SiteResponsivo,
       link: "https://jainefranciellem.github.io/site-responsivo/",
     },
     {
       id: 2,
       title: "Pokedex",
-      imageSrc: "src/img/Pokedex.png",
+      imageSrc: Pokedex,
       link: "https://jainefranciellem.github.io/Pokedex/",
     },
     {
       id: 3,
-      title: "Pixel Art",
-      imageSrc: "src/img/pixelArt.png",
+      title: "PixelArt",
+      imageSrc: PixelArt,
       link: "https://jainefranciellem.github.io/Art-pixel/",
     },
     {

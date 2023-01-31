@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import myself from '../img/eu.png'
 // import Typical from "react-typical";
 
-
 const Hero = () => {
 
   const social_media = [
