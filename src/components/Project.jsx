@@ -2,7 +2,8 @@ import React from "react";
 import SiteResponsivo from '../img/SiteResponsivo.png';
 import Pokedex from '../img/Pokedex.png'
 import PixelArt from '../img/pixelArt.png'
-// import ShoppingCart from '../img/ShoppingCart.png'
+import ShoppingCart from '../img/ShoppingCart.png'
+import TrybeTunes from '../img/TrybeTunes.png'
 
 const Project = () => {
   const project = [
@@ -27,13 +28,13 @@ const Project = () => {
     {
       id: 4,
       title: "Shopping Cart",
-      imageSrc: "src/img/ShoppingCart.png",
-      link: "https://github.com/Jainefranciellem",
+      imageSrc: ShoppingCart,
+      link: "https://jainefranciellem.github.io/Shopping-Cart/",
     },
     {
       id: 5,
       title: "Trybe Tunes",
-      imageSrc: "src/img/TrybeTunes.png",
+      imageSrc: TrybeTunes,
       link: "https://www.linkedin.com/feed/update/urn:li:activity:7013612254419906560/",
     },
   ];
