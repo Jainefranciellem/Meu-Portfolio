@@ -4,7 +4,7 @@ const Skills = () => {
   const skills = [
     {
       logo: "logo-html5",
-      name: "Hmtl5",
+      name: "Html5",
     },
     {
       logo: "logo-css3",
@@ -12,7 +12,7 @@ const Skills = () => {
     },
     {
       logo: "logo-nodejs",
-      name: "JavasCript",
+      name: "JavaScript",
     },
     {
       logo: "logo-react",
@@ -24,7 +24,7 @@ const Skills = () => {
     },
     {
       logo: "flower-outline",
-      name: "tailwind",
+      name: "Tailwind",
     },
 
   ];
