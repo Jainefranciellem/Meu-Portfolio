@@ -1,6 +1,6 @@
 import React from "react";
-import SiteResponsivo from '../img/SiteResponsivo.png';
-import Pokedex from '../img/Pokedex.png'
+import jogoDeTrivia from '../img/jogoDeTrivia.png';
+import trybeWarts from '../img/trybeWarts.png'
 import PixelArt from '../img/pixelArt.png'
 import ShoppingCart from '../img/ShoppingCart.png'
 import TrybeTunes from '../img/TrybeTunes.png'
@@ -9,19 +9,19 @@ const Project = () => {
   const project = [
     {
       id: 1,
-      title: "Site Responsivo",
-      imageSrc: SiteResponsivo,
-      link: "https://jainefranciellem.github.io/site-responsivo/",
+      title: "Jogo De Trivia",
+      imageSrc: jogoDeTrivia,
+      link: "https://jogo-de-triva.vercel.app/",
     },
     {
       id: 2,
-      title: "Pokedex",
-      imageSrc: Pokedex,
-      link: "https://jainefranciellem.github.io/Pokedex/",
+      title: "Trybe Warts",
+      imageSrc: trybeWarts,
+      link: "https://jainefranciellem.github.io/Trybe-Warts/",
     },
     {
       id: 3,
-      title: "PixelArt",
+      title: "Pixel Art",
       imageSrc: PixelArt,
       link: "https://jainefranciellem.github.io/Art-pixel/",
     },
@@ -35,7 +35,7 @@ const Project = () => {
       id: 5,
       title: "Trybe Tunes",
       imageSrc: TrybeTunes,
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:7013612254419906560/",
+      link: "https://trybe-tunes-omega.vercel.app/",
     },
   ];
 
@@ -52,13 +52,13 @@ const Project = () => {
           {project.map(({ id, title, imageSrc, link }) => (
               <div
               key={`${title} ${Date.now()}`}
-                className="  bg-gray-900 m-2 p-2 cursor-pointer group shadow-md min-w-[18rem] max-w-[19rem] max-h-[18rem] shadow-gray-600 overflow-hidden rounded-md"
+                className="  bg-gray-900 m-2 p-2 cursor-pointer group shadow-md  max-w-[19rem] max-h-[18rem] shadow-gray-600 overflow-hidden rounded-md"
               >
                 <img
                 
                 src={imageSrc}
                 alt="projects"
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 h-52"
                 />
                <div 
                 className="text-purple-400 hover:text-purple-400 text-center text-xl my-4 duration-200 cursor-pointer">
