@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+
 
 const Contact = () => {
+  const [inputName, setInputName] = useState('');
+  const [inputEmail, setInputEmail] = useState('');
+  const [textArea, setTextArea] = useState('');
+
+  function clearInputs() {
+    setInputName('')
+    setInputEmail('')
+    setTextArea('')
+  }
   const contact_info = [
     { logo: "mail", text: "jainefranciellen@gmail.com" },
     { logo: "logo-whatsapp", text: "(+55) 79 99673-3389" },
@@ -17,12 +27,12 @@ const Contact = () => {
         >
           <form action="mailto:jainefranciellen@gmail.com.br" encType="text/plain"
             method="POST" className="flex flex-col flex-1 gap-5">
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
+            <input value={ inputName } onChange={({target}) => setInputName(target.value)} type="text" placeholder="Your Name" />
+            <input value={ inputEmail } onChange={({target}) => setInputEmail(target.value)}type="Email" placeholder="Your Email Address" />
+            <textarea value={ textArea }onChange={({target}) => setTextArea(target.value)} placeholder="Your Message" rows={10}></textarea>
             <div className="flex justify-around">
             <button  type="submit" className="btn-primary w-fit ">Enviar Mensagem</button>
-            <button className="btn-primary w-fit">Limpar campos</button>
+            <button type="reset" className="btn-primary w-fit" onClick={ clearInputs }>Limpar campos</button>
             </div>
           </form>
           <div className="flex flex-col  gap-7 ">
