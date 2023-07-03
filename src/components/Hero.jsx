@@ -28,8 +28,8 @@ const Hero = () => {
           </span>
             Meu nome é Jaine Franciellem
           </h1>
-          <h4 className="md:text-2xl text-lg md:leading-normal  leading-5mt-4 font-bold text-gray-900">Desenvolvedora Web Front end</h4>
-          <a href="#contact"><button className="btn-primary hover:scale-105 mt-8">Entre em contato</button></a>
+          <h4 className="md:text-2xl text-lg md:leading-normal  leading-5mt-4 font-bold text-gray-900">Desenvolvedora Web Full Stack</h4>
+          <a download target='_blank' href="https://drive.google.com/file/d/1Igd5QY8Omr2eO6j57wIuvkvKR9g0GkOc/view?usp=sharing"><button className="btn-primary hover:scale-105 mt-8">Download CV</button></a>
         <div className="mt-8 text-5xl md:justify-start justify-center flex items-center gap-8">
             {
               social_media.map(icon =>(
