@@ -3,42 +3,51 @@ import React from "react";
 const Skills = () => {
   const skills = [
     {
-      logo: "logo-html5",
-      name: "Hmtl5",
+      logo: "html5-original.svg",
+      name: "html5",
     },
     {
-      logo: "logo-css3",
-      name: "Css3",
+      logo: "css3-original.svg",
+      name: "css3",
     },
     {
-      logo: "logo-nodejs",
-      name: "JavasCript",
+      logo: "javascript-original.svg",
+      name: "javascript",
     },
     {
-      logo: "logo-react",
-      name: "ReactJs",
+      logo: "react-original.svg",
+      name: "react",
     },
     {
-      logo: "git-branch",
-      name: "Git",
+      logo: "bootstrap-original.svg",
+      name: "bootstrap",
     },
     {
-      logo: "flower-outline",
-      name: "tailwind",
+      logo: "tailwindcss-plain.svg",
+      name: "tailwindcss",
     },
-
+    {
+      logo: "redux-original.svg",
+      name: "redux",
+    },
+    {
+      logo: "jest-plain.svg",
+      name: "jest",
+    },
+    {
+      logo: "figma-original.svg",
+      name: "figma",
+    },
   ];
   return (
-    <section id="skills" className="py-10 relative">
-      <div className="mt-8  text-center">
-        <h3 className="text-4xl font-semibold">
-          Minhas <span className="text-purple-400">Habilidades</span>
+    <section id="skills" className="flex justify-center py-10 relative">
+      <div className="mt-8 text-center w-9/12">
+        <h3 className="text-4xl font-semibold mb-28">
+          Minhas <span className="text-purple-400 ">Habilidades</span>
         </h3>
-        <br />
-        <br />
-        <br />
+
         <h4 className="text-3xl text-gray-900">
-          Minhas Hard Skills
+          Skills em Frontend
         </h4>
         <div className="flex items-center justify-center mt-10 gap-8 flex-wrap">
           {skills.map((skill, i) => (
@@ -53,8 +62,7 @@ const Skills = () => {
                 className="w-32 h-32 flex items-center justify-center rounded-full"
               >
                 <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center text-purple-400">
-                  <ion-icon name={skill.logo}></ion-icon>
-                  {/* <ion-icon src="src/img/tailwind-css.svg"></ion-icon> */}
+                  <img className="w-16 h-16"src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill.name}/${skill.logo}`} alt="" />
                 </div>
               </div>
               <p className="text-3xl mt-2">{skill.name}</p>

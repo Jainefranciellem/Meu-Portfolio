@@ -1,8 +1,8 @@
 import React from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import HardSkills from "./components/HardSkills";
-import SoftSkills from "./components/SoftSkills";
+import Frontend from "./components/Frontend";
+import Backend from "./components/Backend";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -17,8 +17,8 @@ const App = () => {
       <Bot />
       <Hero />
       <About />
-      <HardSkills />
-      <SoftSkills />
+      <Frontend />
+      <Backend />
       <Project />
       <Contact />
       <Footer />
