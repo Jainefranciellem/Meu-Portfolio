@@ -49,7 +49,7 @@ const Skills = () => {
         <h4 className="text-3xl text-gray-900">
           Skills em Frontend
         </h4>
-        <div className="flex items-center justify-center mt-10 gap-8 flex-wrap">
+        <div className="flex items-center justify-center mt-10 gap-20 flex-wrap">
           {skills.map((skill, i) => (
             <div
               key={`${skill.name} ${Date.now()}`}
