@@ -38,6 +38,10 @@ const Skills = () => {
       logo: "figma-original.svg",
       name: "figma",
     },
+    {
+      logo: "angular-original.svg",
+      name: "angular",
+    },
   ];
   return (
     <section id="skills" className="flex justify-center py-10 relative">
