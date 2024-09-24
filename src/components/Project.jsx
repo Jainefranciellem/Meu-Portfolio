@@ -2,7 +2,7 @@ import React from "react";
 import jogoDeTrivia from '../img/jogoDeTrivia.png';
 import trybeWarts from '../img/trybeWarts.png'
 import PixelArt from '../img/pixelArt.png'
-import ShoppingCart from '../img/ShoppingCart.png'
+import CustomerApi from '../img/CustomerApi.png'
 import TrybeTunes from '../img/TrybeTunes.png'
 
 const Project = () => {
@@ -27,9 +27,9 @@ const Project = () => {
     },
     {
       id: 4,
-      title: "Shopping Cart",
-      imageSrc: ShoppingCart,
-      link: "https://jainefranciellem.github.io/Shopping-Cart/",
+      title: "Customer Api",
+      imageSrc: CustomerApi,
+      link: "https://github.com/Jainefranciellem/Customer-api",
     },
     {
       id: 5,

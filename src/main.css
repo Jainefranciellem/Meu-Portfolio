@@ -7,7 +7,7 @@ html {
   @apply font-Poppins scroll-smooth;
 }
 body {
-  @apply box-border text-gray-900 bg-gradient-to-r  from-gray-700 via-purple-500 to-gray-700;
+  @apply box-border text-gray-900 bg-gradient-to-r  from-gray-600 via-purple-500 to-gray-600;
 }
 
 .btn-primary {

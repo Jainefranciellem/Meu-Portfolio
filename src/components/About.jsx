@@ -18,10 +18,10 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-900 font-semibold mt-12 my-3">
-              <p className="text-justify text-xl leading-7 w-11/12 mx-auto">
-              Sou formada em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá e fiz um curso de Desenvolvimento Web FullStack na Trybe, onde fiquei durante 1 ano imersa na programação estudando Javascript, Typescript, Node, ReactJs, SQL, Docker e várias outras tecnologias, além do desenvolvimento da SoftSkills durante todo o curso.
+              <p className="text-justify text-xl leading-7 w-12/15 mx-auto">
+              Sou formada em Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá e também concluí o curso de Desenvolvimento Web FullStack na Trybe, onde tive a oportunidade de passar 1 ano imersa no mundo da programação. Nesse período, estudei intensivamente JavaScript, TypeScript, Node.js, React, SQL, Docker, entre outras tecnologias. Além das habilidades técnicas, desenvolvi também soft skills fundamentais para o trabalho em equipe e a resolução de problemas.
               <br />
-              <br /> Me considero uma entusiasta do conhecimento, sou completamente apaixonada por todo o processo de aprendizagem e gosto de trabalhar em  equipe. Esses foram alguns dos motivo pelos quais eu me encontrei na programação, área em que se está sempre aprendendo coisas novas e onde a colaboração é essencial.
+              <br /> Tenho uma verdadeira paixão pelo aprendizado e por estar constantemente me desafiando. A programação me atraiu justamente por ser uma área em constante evolução, onde a colaboração é essencial e o aprendizado nunca para. Adoro contribuir em equipe e acredito que o conhecimento compartilhado é uma das maiores forças no ambiente de trabalho.
               </p>
               <br />
               <br />
