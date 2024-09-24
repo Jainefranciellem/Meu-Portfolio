@@ -23,7 +23,7 @@ const Skills = () => {
       name: "bootstrap",
     },
     {
-      logo: "tailwindcss-plain.svg",
+      logo: "tailwindcss-original.svg",
       name: "tailwindcss",
     },
     {
@@ -37,6 +37,10 @@ const Skills = () => {
     {
       logo: "figma-original.svg",
       name: "figma",
+    },
+    {
+      logo: "angular-original.svg",
+      name: "angular",
     },
   ];
   return (

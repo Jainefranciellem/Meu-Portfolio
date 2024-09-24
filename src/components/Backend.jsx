@@ -7,16 +7,16 @@ const Skills = () => {
       name: "docker",
     },
     {
-      logo: "mysql-original.svg",
-      name: "mysql",
+      logo: "php-original.svg",
+      name: "php",
     },
     {
       logo: "typescript-original.svg",
       name: "typescript",
     },
     {
-      logo: "python-original.svg",
-      name: "python",
+      logo: "csharp-original.svg",
+      name: "csharp",
     },
     {
       logo: "sequelize-original.svg",
@@ -31,8 +31,12 @@ const Skills = () => {
       name: "mongodb",
     },
     {
-      logo: "express-original.svg",
-      name: "express",
+      logo: "php-original.svg",
+      name: "php",
+    },
+    {
+      logo: "java-original.svg",
+      name: "java",
     },
     {
       logo: "git-original.svg",
