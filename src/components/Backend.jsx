@@ -16,7 +16,7 @@ const Skills = () => {
     },
     {
       logo: "csharp-original.svg",
-      name: "csharp#",
+      name: "csharp",
     },
     {
       logo: "sequelize-original.svg",
@@ -29,10 +29,6 @@ const Skills = () => {
     {
       logo: "mongodb-original.svg",
       name: "mongodb",
-    },
-    {
-      logo: "express-original.svg",
-      name: "express",
     },
     {
       logo: "php-original.svg",

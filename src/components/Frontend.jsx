@@ -23,7 +23,7 @@ const Skills = () => {
       name: "bootstrap",
     },
     {
-      logo: "tailwindcss-plain.svg",
+      logo: "tailwindcss-original.svg",
       name: "tailwindcss",
     },
     {
